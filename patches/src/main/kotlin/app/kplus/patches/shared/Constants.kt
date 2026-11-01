@@ -10,7 +10,7 @@ object Constants {
         name = "K PLUS",
         packageName = "com.kasikorn.retail.mbanking.wap",
         apkFileType = ApkFileType.APKM,
-        appIconColor = 0xFF1E88E5,
+        appIconColor = 0xFF1E88E5.toInt(),
         targets = listOf(
             AppTarget(version = "6.1.0")
         )
